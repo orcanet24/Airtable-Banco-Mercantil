@@ -1,0 +1,24 @@
+{
+    "version": "1.0",
+    "frontendEntry": "./frontend/index.js",
+    "name": "Importador Banco Mercantil",
+    "description": "Importa archivos de transacciones bancarias del Banco Mercantil a Airtable",
+    "author": "Orcanet",
+    "icon": "",
+    "platforms": ["desktop"],
+    "permissions": [
+        {
+            "name": "data",
+            "description": "Leer y escribir registros en la base de datos"
+        },
+        {
+            "name": "settings",
+            "description": "Guardar configuraciones de la extensión"
+        }
+    ],
+    "categories": ["data", "finance"],
+    "minSize": {
+        "width": 400,
+        "height": 500
+    }
+}
